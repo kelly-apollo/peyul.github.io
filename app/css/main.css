@@ -1,0 +1,124 @@
+.l {
+	float:left;
+}
+
+.r {
+	float:right;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+
+.l-p {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.l-p li {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+body {
+	font-family: "Hiragino Sans GB","Microsoft YaHei","黑体",Helvetica,Arial,Tahoma,sans-serif;
+	font-size: 16px;
+	width: 100%;
+	line-height: 1.5;
+	font-weight: 300;
+	background-color: #fdfdfd;
+}
+
+#header {
+	color: #fff;
+	background: pink;
+}
+
+#header a {
+	color: #fff;
+}
+
+#header .wrapper {
+	width: 1000px;
+	margin: 0 auto;
+	color: #fff;
+}
+
+#header h1 {
+	font-family: 'Dancing Script', cursive;
+	margin: 0;
+}
+
+#header nav a {
+	display: inline-block;
+	padding: 1em 0;
+}
+
+.portfolio a {
+}
+
+.portfolio {
+	width: 1000px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+.portfolio li {
+	padding: 0 10px;
+}
+.portfolio li:first-child {
+	padding-left: 0;
+}
+.portfolio li:last-child {
+	padding-right: 0px;
+}
+
+.portfolio a:hover {
+	transition: background-color .3s, border-color .3s;
+	color: #fff;
+}
+.portfolio a {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	border: 5px solid #ccc;
+	font-size: 1.8em;
+	font-weight: 500;
+	color: #ccc;
+}
+
+.portfolio a.website:hover {
+	background: purple;
+	border-color: purple;
+}
+.portfolio a.taobao:hover {
+	background: orange;
+	border-color: orange;
+}
+.portfolio a.building:hover {
+	background: green;
+	border-color: green;
+}
+.portfolio a.etc:hover {
+	background: blue;
+	border-color: blue;
+}
